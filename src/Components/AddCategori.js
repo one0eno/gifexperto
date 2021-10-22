@@ -7,7 +7,7 @@ export default function AddCategory({setCategories}){
     const  [inputValue, setInputValue] = useState('');
     
     const handleInputChange = (e) =>{
-        console.log(e)
+        
         setInputValue(e.target.value)
     }
     
